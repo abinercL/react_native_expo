@@ -1,0 +1,17 @@
+-Desenvolvendo com react-native e expo 
+
+Conhecimento de tecnologia para desenvolvimento mobile
+
+React-native sendo um framework para criar aplicativos criado pelo Facebook
+que possibilita a criação de apps nativos para android e Ios 
+
+- Usando as aulas do curso do One Bit Code- curso de react-native com expo.
+
+"Mini projetos durante o curso"
+
+FERRAMENTAS UTILIZADAS:
+	° VSCode 
+	° Node
+	° Expo
+
+
