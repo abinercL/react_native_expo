@@ -51,7 +51,7 @@ export default function Form() {
                 />
                 <Button
                     onPress={() => validationImc()}
-                    title="Calcular IMC"
+                    title={TextButton}
                 />
             </View>
             <ResultImc messageResultImc={messageImc} resultImc={imc} />
