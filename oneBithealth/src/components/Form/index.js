@@ -49,7 +49,9 @@ export default function Form() {
                     placeholder="Ex. 58.500"
                     keyboardType="numeric"
                 />
-                <Button title="Calcular IMC"
+                <Button
+                    onPress={() => validationImc()}
+                    title="Calcular IMC"
                 />
             </View>
             <ResultImc messageResultImc={messageImc} resultImc={imc} />
