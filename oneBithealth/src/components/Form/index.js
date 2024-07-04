@@ -9,6 +9,7 @@ export default function Form() {
                 <TextInput
                     placeholder="Ex. 1.75"
                     keyboardType="numeric"
+
                 />
 
                 <Text>Peso</Text>
@@ -19,6 +20,7 @@ export default function Form() {
                 <Button title="Calcular IMC"
                 />
             </View>
+            <ResultImc messageResultImc={messageImc} resultImc={imc} />
         </View>
     );
 }
