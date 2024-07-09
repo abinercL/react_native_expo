@@ -1,7 +1,16 @@
 import { useState } from "react";
-import { View, Text, TextInput, TouchableOpacity } from "react-native";
+import {
+    View,
+    Text,
+    TextInput,
+    TouchableOpacity,
+    Vibration,
+
+}
+    from "react-native";
 import ResultImc from "./ResultImc";
 import styles from "./style";
+
 
 export default function Form() {
 
@@ -18,6 +27,7 @@ export default function Form() {
 
     function verificationImc() {
         if (imc == null) {
+            Vibration.vibrate();
             setErrorMessage("Campo obrigatorio")
         }
     }
@@ -47,7 +57,6 @@ export default function Form() {
                 <Text style={styles.formLabel}>Altura</Text>
                 <Text style={styles.errorMessage}>{errorMessage}</Text>
                 <TextInput
-
                     style={styles.input}
                     onChangeText={setHeight}
                     value={height}
